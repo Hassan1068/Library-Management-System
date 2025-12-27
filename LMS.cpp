@@ -1,8 +1,8 @@
 #include<iostream>  //For Input/Output
 #include<string>   //For Strings
-#include<chrono>  //For Access&Deal Time
-#include<thread> //For efficiency of program make it to execute multiple tasks conqurently.
-#include<fstream> // ✅ File Handling
+#include<chrono>  //For Access & Deal Time
+#include<thread> //For efficiency of program make it to execute multiple tasks conqurently
+#include<fstream> //File Handling
 
 using namespace std;
 
@@ -21,7 +21,7 @@ void addbook();
 void removebook();
 void checkavailability();
 void issuebook();
-void returnbook();           // ✅ NEW
+void returnbook();           
 void bookdetails();
 void totalbooks();
 void checkLowBookAvailability();
@@ -40,7 +40,7 @@ void borrowingprivileges();
 void finepolicy();
 void rights();
 
-// ✅ File Handling Functions
+//File Handling Functions
 void saveToFile();
 void loadFromFile();
 
@@ -69,7 +69,7 @@ int totalMembers = 10;
 
 int main()
 {
-    // ✅ Load data from file if exists
+    // Load data from file if exists
     loadFromFile();
 
 	cout<<"========================================================"<<endl;
@@ -149,7 +149,7 @@ void saveToFile()
     ofstream file("LMS.txt");
     if(!file)
     {
-        cout << "Error: LMS.txt open nahi ho rahi (write)!" << endl;
+        cout << "Error: LMS.txt file not found!" << endl;
         return;
     }
 
@@ -181,7 +181,7 @@ void loadFromFile()
     ifstream file("LMS.txt");
     if(!file)
     {
-        return; // no file -> keep predefined
+        return; 
     }
 
     string tag;
@@ -276,7 +276,7 @@ void bookmenu()
 			case 3: removebook(); break;
 			case 4: checkavailability(); break;
 			case 5: issuebook(); break;
-            case 6: returnbook(); break; // ✅ NEW
+            case 6: returnbook(); break; 
 			case 7: bookdetails(); break;
 			case 8: totalbooks(); break;
 			case 9: return;
@@ -534,7 +534,6 @@ void issuebook()
     cout << "Book not found!" << endl;
 }
 
-// ✅ NEW: Return Book (updates file)
 void returnbook()
 {
     string bookId, memberId;
@@ -793,3 +792,4 @@ void rights()
 	cout<<"4. Your cooperation urges us to serve you better.       "<<endl;
 	cout<<"========================================================"<<endl;
 }
+
