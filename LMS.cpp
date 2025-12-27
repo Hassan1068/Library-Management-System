@@ -262,7 +262,7 @@ void bookmenu()
 		cout<<"3. Remove a book                                        "<<endl;
 		cout<<"4. Check Availability                                   "<<endl;
 		cout<<"5. Issue a book                                         "<<endl;
-        cout<<"6. Return a book                                        "<<endl; // ✅ NEW
+        cout<<"6. Return a book                                        "<<endl; 
 		cout<<"7. Display all book & their details                     "<<endl;
 		cout<<"8. Total books                                          "<<endl;
 		cout<<"9. Exit                                                 "<<endl;
@@ -792,4 +792,5 @@ void rights()
 	cout<<"4. Your cooperation urges us to serve you better.       "<<endl;
 	cout<<"========================================================"<<endl;
 }
+
 
