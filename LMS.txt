@@ -1,0 +1,24 @@
+BOOKS 10
+101|Sapiens|Yuval Noah Harari|2014|1|N/A
+102|Dune|Frank Herbert|1965|1|N/A
+103|IT|Stefen king|1986|1|N/A
+104|1984|George Orwell|1949|1|N/A
+105|Beloved|Toni Morrison|1987|1|N/A
+106|Hatchet|Gary Paulsen|1986|1|N/A
+107|EMMA|Jane Austen|1815|1|N/A
+108|Speak|Laurie Halse Anderson|1999|1|N/A
+109|Room|Emma Donoghue|2010|1|N/A
+110|Blink|Malcolm Gladwell|2005|1|N/A
+MEMBERS 12
+1001|Hassan|1068|CS
+1002|Mian Moaz|1052|CS
+1003|Mian Ahmar|1056|CS
+1004|Talha AR|1080|SE
+1005|Hasnain Sandhu|1065|AI
+1006|Sikander|1079|CS
+1007|Umm E Salma|1095|AI
+1008|Rumaisa|1089|BS
+1009|Raghad Zia|1101|TT
+1010|Noor Malik|1102|FD
+1011|Abdullah Khan|1098|DCS
+1012|Hydr Zaman|1062|CS
